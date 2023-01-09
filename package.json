@@ -11,6 +11,9 @@
     "build:schema": "graphql-codegen --config codegen.yml",
   "contentful:import": "contentful space import --config import/config.json"
   },
+  "engines": {
+  "node": "16.x"
+},
   "prettier": {
     "trailingComma": "es5",
     "tabWidth": 2,
