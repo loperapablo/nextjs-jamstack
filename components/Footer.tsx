@@ -44,19 +44,12 @@ export const Footer = ({ className }: { className?: string }) => {
               About
             </Typography>
             <p>
-              <a href="https://platzi.com/">Platzi's Next.js Course by</a>{' '}
-              <a href="https://twitter.com/jonalvarezz">@jonalvarezz</a>
+              <a href="https://platzi.com/">Platzi's Next.js Course</a>{' '}
+              
             </p>
             <div className="mt-3">
-              <a
-                href="https://twitter.com/jonalvarezz"
-                title="Follow @jonalvarezz on Twitter"
-                className="pr-4"
-              >
-                TW
-              </a>
-              <a
-                href="https://github.com/jonalvarezz"
+                            <a
+                href="https://github.com/loperapablo"
                 title="Open this project on GitHub"
               >
                 GH
@@ -72,9 +65,9 @@ export const Footer = ({ className }: { className?: string }) => {
             </a>
           </p>
           <p>
-            <a target="_blank" href="https://jonalvarezz.com">
-              jonalvarezz.com
-            </a>
+            {/* <a target="_blank" href="https://loperapablo.com">
+              loperapablo.com
+            </a> */}
           </p>
         </div>
       </div>
