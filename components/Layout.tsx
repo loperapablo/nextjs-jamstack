@@ -4,7 +4,7 @@ import { Footer } from '@components/Footer'
 
 type LayoutProps = { title?: string }
 
-const siteTitle = "Platzi's Plantpedia"
+const siteTitle = "Plantpedia"
 
 const FOOTER_OFFSET = 450
 
@@ -29,6 +29,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, title }) => {
       </div>
       <Footer className="absolute bottom-0 inset-x-0" />
 
+      
       {/* Keep the footer at the bottom */}
       <style jsx>{`
         .local-container {

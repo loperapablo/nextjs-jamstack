@@ -47,10 +47,7 @@ export const Footer = ({ className }: { className?: string }) => {
             <Typography variant="h5" className="mb-4">
               {t('about')}
             </Typography>
-            <p>
-              <a href="https://platzi.com/">{t('aboutDescription')}</a>{' '}
-              
-            </p>
+            
             <div className="mt-3">
                             <a
                 href="https://github.com/loperapablo"
