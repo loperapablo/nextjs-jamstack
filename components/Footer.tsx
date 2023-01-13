@@ -24,7 +24,7 @@ export const Footer = ({ className }: { className?: string }) => {
           >
             <PlantpediaLogo />
             <Typography variant="h5" component="a" href="/" title="Go home">
-              Platzi's Plantpedia
+              Plantpedia
             </Typography>
           </Grid>
           <Grid item xs={6} sm={4}>
